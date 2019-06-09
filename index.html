@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="location">
+        <h1 class="location-timezone">Location</h1>
+        <canvas id="icon" width="100" height="100"></canvas>
+      </div>
+      <div class="temperature">
+        <h2 class="temperature-degrees">Temperature</h2>
+        <div class="temperature-description">Description</div>
+      </div>
+      <input type="text" class="search" placeholder="Choose a city..." />
+      <div class="cities"></div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./skycons.js"></script>
+  </body>
+</html>
